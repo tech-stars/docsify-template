@@ -13,5 +13,4 @@ docsify serve docs
 
 执行完命令后，在浏览器打开 http://localhost:3000/#/ 就可以看到页面，效果如下：
 
-![image-20210814231550386](assets/image-20210814231550386.png)
-
+![image-20210814225804063](assets/image-20210814225804063.png)

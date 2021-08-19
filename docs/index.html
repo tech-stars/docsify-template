@@ -8,6 +8,9 @@
   <meta name="description" content="将碎片化的知识点总结整理成笔记，夯实技术基础">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- 自定义样式和字体 -->
+  <link rel="stylesheet" href="./assets/custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster"rel="stylesheet">
 </head>
 
 <body>
@@ -19,6 +22,7 @@
       loadNavbar: true,  // 加载自定义导航栏 
       loadSidebar: true, // 加载自定义侧边栏
       coverpage: true,   //加载自定义封面
+	  themeColor: '#25798A',   //自定义主题色
       maxLevel: 2, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级
       subMaxLevel: 4, // 生成目录的最大层级
       mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
@@ -62,7 +66,7 @@
   <!-- 回到顶部功能 -->
   <script src="https://cdn.jsdelivr.net/gh/forthespada/forthespada.github.io@master/plugin/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/forthespada/forthespada.github.io@master/plugin/jquery.goup.js"></script>
-  <script type="text/javascript">
+   <script type="text/javascript">
 	$(document).ready(function () {
 	  $.goup({
 		trigger: 700,

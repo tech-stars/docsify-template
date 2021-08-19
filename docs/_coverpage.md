@@ -1,3 +1,4 @@
+<!-- logo -->
 <img src="assets/logo.png" alt="logo" style="zoom: 50%;" /> 
 
 # 📙编程笔记
@@ -10,3 +11,7 @@
 [GitHub](https://github.com/tech-stars/docsify-template) 
 [开始阅读](README.md)
 
+
+
+<!-- background image -->
+![](assets/background.png)
